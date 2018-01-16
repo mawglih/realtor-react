@@ -1,0 +1,26 @@
+{
+   "a": {
+       "name": "Oleg Markoff",
+       "optionsState": "standard",
+       "dateA": "2018-04-01",
+       "dateD": "2018-04-08"
+   },
+   "b": {
+    "name": "Suzi Quattro",
+    "optionsState": "junior suite",
+    "dateA": "2018-03-02",
+    "dateD": "2018-03-15"
+   } ,
+   "c": {
+    "name": "Mark Zukerberg",
+    "optionsState": "Two bedroom",
+    "dateA": "2018-02-22",
+    "dateD": "2018-03-01"
+   },
+   "d": {
+    "name": "Al Capone",
+    "optionsState": "standard",
+    "dateA": "2018-02-01",
+    "dateD": "2018-03-01"
+   }
+}

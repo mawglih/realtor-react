@@ -1,0 +1,24 @@
+.nav {
+    position: relative;
+    background-color: $color-black;
+ 
+    &__ul{
+        display: flex;
+        padding: 2rem 3rem;
+        list-style-type: none;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        &-link {
+            flex: 1 1 20%;
+                & a {
+                    color: $color-white !important;
+                    text-decoration: none;
+                }
+                &:hover {
+                    color: $color-grey-dark-1;
+                }
+            }
+            
+    }
+}

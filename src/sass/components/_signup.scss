@@ -1,0 +1,29 @@
+.signup{
+    display: flex;
+    justify-content: center;
+    &__form {
+        border: solid 1px $color-black;
+        border-radius: 10px;
+        padding: 20px;
+        align-self: center;
+        &-input {
+            width:100%;
+            display: block;
+            padding: 5px;
+        }
+        &-button {
+            padding: 5px;
+            margin-top:10px;
+            color: $color-white;
+            background-color: $color-secondary;
+            &--out {
+                background-color: $color-tertiary;
+                margin-top: 0;
+                width:5rem;
+            }   
+        }
+    }
+    &__link {
+        text-align: center;
+    }
+}

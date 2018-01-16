@@ -1,0 +1,19 @@
+.res{
+    
+    &__table {
+        width: 80%;
+        &-row {
+            
+        }
+        &_row>th, td {
+            padding: 1rem;
+            
+        }
+        &_row>th {
+            height: 2rem;
+        }
+    }
+}
+table, th, td {
+    border: 1px solid black;
+ }
