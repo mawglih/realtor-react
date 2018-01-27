@@ -1,6 +1,23 @@
 .main-title {
   text-align: center; }
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #6D5D4B;
+  font-weight: 300;
+  line-height: 1.6rem; }
+
 .nav {
   position: relative;
   background-color: #000; }
@@ -17,7 +34,7 @@
         color: #fff !important;
         text-decoration: none; }
       .nav__ul-link:hover {
-        color: #585858; }
+        color: #54483A; }
 
 .signup {
   display: flex;
@@ -35,9 +52,9 @@
       padding: 5px;
       margin-top: 10px;
       color: #fff;
-      background-color: green; }
+      background-color: #FFBB00; }
       .signup__form-button--out {
-        background-color: red;
+        background-color: #10FFB9;
         margin-top: 0;
         width: 5rem; }
   .signup__link {
